@@ -1,0 +1,63 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "csv",
+  "dataset_size": 666342,
+  "description": "",
+  "download_checksums": {
+    "C:/Users/ravel/Desktop/Projetos Aleat\u00f3rios/Llama Env Classifier/data/raw/climate_sentiment.csv": {
+      "num_bytes": 658252,
+      "checksum": null
+    }
+  },
+  "download_size": 658252,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "token_type_ids": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1324594,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 666342,
+      "num_examples": 1320,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
